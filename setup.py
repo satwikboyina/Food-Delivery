@@ -18,8 +18,8 @@
 # setup(
 #     name='FoodDeliveryProject',
 #     version='0.0.2',
-#     author='Akish',
-#     author_email='akishpothuri@gmail.com',
+#     author='Satwik',
+#     author_email='satwikb2702@gmail.com',
 #     install_requires=get_requirements('requirements.txt'),
 #     packages=find_packages()
 # )
@@ -43,14 +43,14 @@ def get_requirements(file_path: str) -> List[str]:
 setup(
     name='FoodDelivery',
     version='0.0.2',
-    author='Akish',
-    author_email='akishpothuri@gmail.com',
+    author='Satwik',
+    author_email='satwikb2702@gmail.com',
     description='A project for food delivery management',
     license= 'Apache License',
     Platform= 'GIT',
     long_description=open('README.md').read(),  # If you have a README.md
     long_description_content_type='text/markdown',
-    url='https://github.com/AKISHPOTHURI/FoodDelivery',  # Replace with your GitHub or project URL
+    url='https://github.com/satwikboyina/FoodDelivery',  # Replace with your GitHub or project URL
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages(),
     classifiers=[
